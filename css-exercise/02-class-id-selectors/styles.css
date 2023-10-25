@@ -1,0 +1,17 @@
+.odd-numbered {
+    background-color: rgb(250, 190, 200);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.third-line {
+    font-size: 24px;
+}
+
+#second-line {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+#forth-line {
+    background-color: rgb(144, 238, 144);
+}

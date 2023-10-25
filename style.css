@@ -16,3 +16,24 @@ div {
 .contact-us {
   background-color: #334257;
 }
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container div {
+  display: flex;
+  background-color: peachpuff;
+  border: 4px solid brown;
+  height: 100px;
+  margin: 5px;
+  flex: 1;
+}
+
+.two div {
+  background-color: pink;
+  border: 4px solid green;
+  height: 15px;
+  margin: auto;
+  flex: 1;
+}

@@ -1,14 +1,49 @@
-div {
-  border: 1px solid black;
+* {
+  font-family: sans-serif;
 }
 
 .container {
+  background-color: pink;
   padding: 5px;
   display: flex;
   justify-content: space-between;
 }
 
-.container div {
-  padding: 5px;
+.items {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  margin-right: 2px;
   text-align: center;
+  flex: 1;
+}
+
+.items.item1, .items.item3, .items.item5 {
+  flex: 2;
+}
+
+/*flex grow and shrink section*/
+.grow-container, .shrink-container {
+  display: flex;
+}
+
+.grow-container div {
+  background: peachpuff;
+  border: 2px solid black;
+  height: 100px;
+  flex:  1 1 0%;
+}
+.grow-container .two {
+  flex: 2 1 0%;
+}
+
+.shrink-container div {
+  background: peachpuff;
+  border: 2px solid black;
+  height: 200px;
+  width: 400px;
+  flex: 1 1 auto;
+}
+.shrink-container .dua {
+  flex-shrink: 0;
 }

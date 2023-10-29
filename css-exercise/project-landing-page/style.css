@@ -32,7 +32,6 @@
 /* TOP LAYOUT */
 .top-container {
     width: 1000px;
-    padding: 25px;
     /*border: 1px solid white;*/
 }
 .header {
@@ -51,6 +50,7 @@ ul {
 .banner {
     /*border: 3px solid red;*/
     padding: 10px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;

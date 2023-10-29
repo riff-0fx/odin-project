@@ -21,7 +21,7 @@
     font-size: 18px;
     list-style-type: none;
 }
-.banner-desc button {
+button {
     background-color: #3882f6;
     color: #e5e7eb;
     border-radius: 5px;
@@ -31,7 +31,7 @@
 
 /* ==================== TOP LAYOUT ==================== */
 .top-container {
-    width: 1000px;
+    width: 900px;
     /*border: 1px solid white;*/
 }
 .header {
@@ -136,4 +136,29 @@ ul {
     font-size: 36px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+/* ==================== MAIN SECTION C ==================== */
+.section-three-container {
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+}
+.sign-up-button button {
+    border: 1px solid #e5e7eb;
+}
+.blue-box {
+    width: 700px;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: #3882f6;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.cta-text {
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
 }

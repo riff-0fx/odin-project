@@ -81,7 +81,7 @@ ul {
     object-fit: cover;
 }
 
-/* ==================== MAIN SECTION ==================== */
+/* ==================== MAIN SECTION A ==================== */
 .header-text {
     color: #1f2937;
     font-size: 36px;
@@ -110,4 +110,30 @@ ul {
     height: 120px;
     border: 3px solid #3882f6;
     border-radius: 10px;
+}
+
+/* ==================== MAIN SECTION B ==================== */
+.section-two {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+.section-two-container {
+    margin: 60px;
+    /*border: 1px solid black;*/
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.quote {
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.quoter {
+    font-size: 36px;
+    font-weight: bold;
+    align-self: flex-end;
 }

@@ -162,3 +162,14 @@ ul {
     display: flex;
     flex-direction: column;
 }
+
+/* ==================== FOOTER ==================== */
+.footer {
+    background-color: #1f2937;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+}
+.footer-text {
+    color: #e5e7eb;
+}

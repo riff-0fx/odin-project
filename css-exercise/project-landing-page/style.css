@@ -29,7 +29,7 @@
     padding : 5px 15px 5px 15px;
 }
 
-/* TOP LAYOUT */
+/* ==================== TOP LAYOUT ==================== */
 .top-container {
     width: 1000px;
     /*border: 1px solid white;*/
@@ -37,6 +37,7 @@
 .header {
     /*border: 3px solid green;*/
     padding: 10px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,6 +64,9 @@ ul {
     flex-direction: column;
     gap: 10px;
 }
+.banner-desc {
+    align-self: self-start;
+}
 .banner-desc h1, p {
     margin: 0;
 }
@@ -75,4 +79,35 @@ ul {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+/* ==================== MAIN SECTION ==================== */
+.header-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    /*border: 1px solid black;*/
+    text-align: center;
+    margin: 40px;
+}
+.box-container {
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 60px;
+}
+.box-and-text {
+    font-size: 13px;
+    width: 126px;
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.box {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
 }
